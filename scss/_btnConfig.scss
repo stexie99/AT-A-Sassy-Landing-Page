@@ -1,0 +1,22 @@
+@import "util";
+@import "vars";
+
+
+%btn {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+
+
+
+.btn-primary {
+  @extend %btn;
+  background-color:blue;
+}
+
+.btn-secondary {
+  @extend %btn;
+  background-color:lightblue;
+}
